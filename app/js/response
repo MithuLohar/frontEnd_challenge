@@ -1,0 +1,23 @@
+1.settings page load request for  -
+
+bid=allsett&read=1
+
+
+2.settings page load reponse for cloud form and AlertId1 and AlertId2-
+
+bid=allsett&broAddr=119.161.98.26&broPort=1883&mqttPubintvl=fine&brkDomn=&edns=false&rsptmout=200&idealtmout=100&mqtt=0&modbusTCP= 1&modbusRTU=0&port=503&logintvl=100&smtpsrvname=ttn.com&portnum=1884&username=elm&password=123&alertmailid1=elms@1234.com&alertmailid2=elms@1234.com&ealertng=false&usrnm=elmeasure&pass=elmeasure&date=@5-@5-2065&time=@5-@5-85&brkUsrnm=elmeasur&passwrd=elmeasure&eatn=true&usrnm=&pass=&cloudDomn=iot.elmeasure.com&cloudPort=100&ssl=true&
+
+
+3.settings updated request for alert mail form-
+
+bid=alertstng&smtpsrvname=smtp&portnum=portno&username=username&password=password&alertmailid1=example@gmail.com&alertmailid2=example@gmail.com&ealertng=true
+
+
+4.settings request for cloud form-
+
+bid=cloud&cloudDomn=iot.elmeasure.com&cloudPort=100&ssl=true
+
+
+5.response for alert mail form and cloud form-
+
+success
